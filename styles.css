@@ -1,0 +1,165 @@
+.header,
+.intro,
+.footer{
+    background-color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.signup,
+.callcontainer{
+    background-color: #3882f6;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.intro,
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.introtext,
+.headerlinks{
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+}
+
+.mainbody{
+    flex: 1;
+}
+
+.intro{
+    justify-content: center;
+    padding: 50px 300px;
+}
+
+.mainintro{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.introright{
+    background-color: grey;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.randomheader{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.infobox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.box{
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex : 1;
+    padding: 50px 600px;
+}
+
+.quotetext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author{
+    text-align: right;
+}
+
+.call{
+    padding :50px 600px;
+}
+
+.callcontainer{
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.signup{
+    color: white;
+    border-radius: 6px;
+    border-color: 2px solid white;
+}
+
+.calltext{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.callinfo{
+    color: white;
+    font-size: 16px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+
